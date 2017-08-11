@@ -21,6 +21,9 @@
                 case '/top250':
                     $scope.ischecked = '/top250'
                     break;
+                default:
+                    $location.url('home_page')
+                    break;
             }
         })
     }])
